@@ -1,4 +1,4 @@
-const Rating = ({ children }) => {
+const Rating = ({ children, rating }) => {
   const stars = (rating) => {
     const finalRating = Math.round(rating);
 
@@ -17,7 +17,7 @@ const Rating = ({ children }) => {
     }
   };
 
-  return <div>{stars(children)}</div>;
+  return <div>{rating ? stars(rating) : stars(children)}</div>;
 };
 
 export default Rating;

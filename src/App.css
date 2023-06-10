@@ -15,3 +15,15 @@
   max-width: 4rem;
   max-height: 4rem;
 }
+
+.click-image {
+  cursor: pointer;
+}
+
+.dice {
+  height: 500px;
+}
+
+.carousel {
+  height: 400px;
+}
